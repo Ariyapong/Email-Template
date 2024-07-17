@@ -45,7 +45,7 @@ async function startServer() {
    * @link {@see https://vike.dev}
    **/
   // app.all("*", createHandler(vikeHandler));
-  app.all("*", (req, res, next) => {
+  app.get("*", (req, res, next) => {
     return vikeHandler(req, res, next);
   });
 
