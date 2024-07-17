@@ -11,13 +11,15 @@ export async function vikeHandler<
   };
   const pageContext = await renderPage(pageContextInit);
   const response = pageContext.httpResponse;
-
+  const headers = pageContext.httpResponse?.headers ?? []
+  const contentType = pageContext.httpResponse?.contentType as string
+  headers.push(["Content-Type", contentType])
   const { readable, writable } = new TransformStream();
-
   response?.pipe(writable);
-
+  
   return new Response(readable, {
     status: response?.statusCode,
-    headers: response?.headers,
+    // headers: response?.headers,
+    headers: headers,
   });
 }
