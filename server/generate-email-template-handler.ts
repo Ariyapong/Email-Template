@@ -44,7 +44,7 @@ export async function generateEmailTemplateHandler<
     {
       status: 200,
       headers: {
-        "content-type": "application/json",
+        "Content-Type": "application/json",
       },
     }
   );

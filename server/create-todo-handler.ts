@@ -9,7 +9,7 @@ export async function createTodoHandler<
   return new Response(JSON.stringify({ status: "OK" }), {
     status: 200,
     headers: {
-      "content-type": "application/json",
+      "Content-Type": "application/json",
     },
   });
 }
