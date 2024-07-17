@@ -2,6 +2,7 @@ import { dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 
 import { createTodoHandler } from "./server/create-todo-handler";
+import { generateEmailTemplateHandler } from "./server/generate-email-template-handler";
 import { vikeHandler } from "./server/vike-handler";
 import { createHandler } from "@universal-middleware/express";
 import express from "express";
@@ -36,6 +37,7 @@ async function startServer() {
   }
 
   app.post("/api/todo/create", createHandler(createTodoHandler));
+  app.post("/api/email/generate", createHandler(generateEmailTemplateHandler));
 
   /**
    * Vike route
