@@ -1,0 +1,236 @@
+<mjml lang="en">
+  <mj-head>
+    <mj-title>PLM NPD EMAIL</mj-title>
+    <mj-preview>Activity [NODENAME] requires your action.</mj-preview>
+    <mj-font name="IBM Plex Sans Thai" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;600&family=IBM+Plex+Sans:wght@400;600" />
+    <mj-attributes>
+      <!-- IBM Plex Sans Thai -->
+      <mj-all font-family="IBM Plex Sans Thai, Segoe UI,'Segoe UI Web (West European)', Segoe UI, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif" />
+      <mj-class name="text" color="#344054" font-size="16px" line-height="24px" />
+      <mj-image padding="0 32px" alt="email process" />
+    </mj-attributes>
+    <mj-style>
+      p {
+        margin: 0;
+        padding: 0;
+      }
+
+      .body-pad {
+        padding-bottom: 32px;
+      }
+
+      .label-th {
+        display: none !important;
+      }
+
+      .lang-en .label-th {
+        display: none !important;
+      }
+
+      .lang-th .label-en {
+        display: none !important;
+      }
+
+      .lang-th .label-th {
+        display: block !important;
+      }
+
+      .subject {
+        font-weight: 600 !important;
+      }
+
+      .subject.highlight {
+        color: #D92D20;
+      }
+
+      .bg-subject {
+        background-color: #F5FAFE !important;
+        border-left: 1px solid #E4E7EC;
+        border-right: 1px solid #E4E7EC;
+        border-top: 0.5px solid #E4E7EC;
+        border-bottom: 0.5px solid #E4E7EC;
+      }
+
+      .bg-subject:first-child {
+        border-top: 1px solid #E4E7EC;
+      }
+
+      .bg-subject:last-child {
+        border-bottom: 1px solid #E4E7EC;
+      }
+
+      .bg-col {
+        background-color: #FFFFFF;
+      }
+
+      .pad {
+        padding: 10px 16px !important;
+      }
+
+      @media only screen and (max-width:480px) {
+
+        .subject.pad .label-th,
+        .subject.pad .label-en {
+          text-align: center !important;
+        }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body width="640px" css-class="body-pad lang-en">
+    <mj-raw>
+      <div style="display: none; max-height: 0px; overflow: hidden; opacity:0">
+        &#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;&#847;&nbsp;
+      </div>
+    </mj-raw>
+    <mj-section padding="0">
+      <mj-raw>
+        <!-- Hero Image -->
+      </mj-raw>
+      <mj-column padding-top="32px">
+        <mj-image width="164px" src="https://plm-uat.axonstech.com/images/mail-close.png" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0">
+      <mj-raw>
+        <!-- introduction text -->
+      </mj-raw>
+      <mj-column>
+        <mj-text color="#344054" padding="8px 32px 16px 32px" mj-class="text">
+          <p class="label-en" lang="en">Dear All,</p>
+          <p class="label-th" lang="th">เรียน ทุกท่าน</p>
+        </mj-text>
+        <mj-text color="#344054" padding="8px 32px 16px 32px" mj-class="text">
+          <p class="label-en">NPD Product : [PRODUCT NAME] has been moved to <span class="subject highlight">NO GO!!</span>.</p>
+          <p class="label-th">ขอแจ้งให้ทราบว่า สินค้า NPD : [PRODUCT NAME] ได้ถูกเปลี่ยนสถานะเป็นหยุดทำสินค้า <span class="subject highlight">NO GO!!</span></p>
+        </mj-text>
+        <mj-text css-class="label-en" mj-class="text" color="#344054" padding="8px 32px 16px 32px">Please find the details of your activity below :</mj-text>
+        <mj-text css-class="label-th" mj-class="text" color="#344054" padding="8px 32px 16px 32px">โปรดดูรายละเอียดกิจกรรมของคุณด้านล่าง :</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-wrapper padding="0 32px">
+      <mj-raw>
+        <!-- table details -->
+      </mj-raw>
+      <mj-section padding="0" css-class="bg-subject">
+        <mj-column width="31%">
+          <mj-text css-class="subject pad" mj-class="text">
+            <p class="label-en">Project :</p>
+            <p class="label-th">โปรเจค :</p>
+          </mj-text>
+        </mj-column>
+        <mj-column width="69%" css-class="bg-col">
+          <mj-text css-class="pad" mj-class="text">[PROJECTNAME]</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0" css-class="bg-subject">
+        <mj-column width="31%">
+          <mj-text css-class="subject pad" mj-class="text">
+            <p class="label-en">Project Owner :</p>
+            <p class="label-th">เจ้าของโปรเจค : </p>
+          </mj-text>
+        </mj-column>
+        <mj-column width="69%" css-class="bg-col">
+          <mj-text css-class="pad" mj-class="text">[PROJECTOWNER] ([PROJECTOWNERTEL])</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0" css-class="bg-subject">
+        <mj-column width="31%">
+          <mj-text css-class="subject pad" mj-class="text">
+            <p class="label-en">Project Assistant :</p>
+            <p class="label-th">ผู้ช่วยเจ้าของโปรเจค :</p>
+          </mj-text>
+        </mj-column>
+        <mj-column width="69%" css-class="bg-col">
+          <mj-text css-class="pad" mj-class="text">[PROJECTASSISTANT]</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0" css-class="bg-subject">
+        <mj-column width="31%">
+          <mj-text css-class="subject pad" mj-class="text">
+            <p class="label-en">Product :</p>
+            <p class="label-th">สินค้า :</p>
+          </mj-text>
+        </mj-column>
+        <mj-column width="69%" css-class="bg-col">
+          <mj-text css-class="pad" mj-class="text">[PRODUCTNAME]</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0" css-class="bg-subject">
+        <mj-column width="31%">
+          <mj-text css-class="subject pad" mj-class="text">
+            <p class="label-en">Gate :</p>
+            <p class="label-th">เกท :</p>
+          </mj-text>
+        </mj-column>
+        <mj-column width="69%" css-class="bg-col">
+          <mj-text css-class="pad" mj-class="text">[NODENAMELVL1]</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0" css-class="bg-subject">
+        <mj-column width="31%">
+          <mj-text css-class="subject pad" mj-class="text">
+            <p class="label-en">Action :</p>
+            <p class="label-th">ผลการพิจารณา :</p>
+          </mj-text>
+        </mj-column>
+        <mj-column width="69%" css-class="bg-col">
+          <mj-text css-class="pad" mj-class="text"><span class="subject highlight">NO GO</span></mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0" css-class="bg-subject">
+        <mj-column width="31%">
+          <mj-text css-class="subject pad" mj-class="text">
+            <p class="label-en">Comment :</p>
+            <p class="label-th">คอมเมนต์ :</p>
+          </mj-text>
+        </mj-column>
+        <mj-column width="69%" css-class="bg-col">
+          <mj-text css-class="col pad" mj-class="text">[COMMENT] ([USERCOMMENT] ([USERCOMMENTTEL]) - [USERCOMMENTROLE])</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!-- table details end-->
+      </mj-raw>
+    </mj-wrapper>
+
+    <mj-section padding="0">
+      <mj-raw>
+        <!-- action -->
+      </mj-raw>
+      <mj-column>
+        <mj-text css-class="label-en" color="#344054" align="center" padding="24px 32px 8px 32px" mj-class="text">To access this product, please click here</mj-text>
+        <mj-text css-class="label-th" color="#344054" align="center" padding="24px 32px 8px 32px" mj-class="text">หากต้องการดูรายละเอียดสินค้า กรุณาคลิกที่นี่</mj-text>
+        <mj-button background-color="#074E9F" color="white" height="48px" border-radius="8px" font-size="18px" line-height="28px" padding="0 32px" inner-padding="10px 16px" href="[TASK]">
+          <span class="label-en">View product details</span>
+          <span class="label-th">ดูรายละเอียดสินค้า</span>
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0">
+      <mj-raw>
+        <!-- more details -->
+      </mj-raw>
+      <mj-column>
+        <mj-text color="#344054" padding="24px 32px 0 32px" mj-class="text">
+          <p class="label-en">If you need further business information, please contact project owner.</p>
+          <p class="label-th">หากมีข้อสงสัยประการใด กรุณาติดต่อสอบถามได้ที่เจ้าของโปรเจค</p>
+        </mj-text>
+        <mj-text color="#344054" padding="16px 32px 16px 32px" mj-class="text">
+          <p class="label-en">Thank you.</p>
+          <p class="label-th">ขอบคุณ</p>
+        </mj-text>
+        <mj-text color="#344054" padding="0 32px" mj-class="text">
+          <p class="label-en">
+            <span class="subject">Note :</span> This email generated from system. Please do not reply.
+          </p>
+          <p class="label-th">
+            <span class="subject">หมายเหตุ :</span> อีเมลนี้สร้างขึ้นจากระบบ กรุณาอย่าตอบกลับ
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+  <mj-raw>
+    <!-- Craft with ❤️ by Ariyapong W.-->
+  </mj-raw>
+</mjml>
