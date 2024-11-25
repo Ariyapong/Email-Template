@@ -95,8 +95,8 @@
       </mj-raw>
       <mj-column>
         <mj-text font-size="16px" color="#344054" padding="8px 32px 16px 32px" mj-class="text">
-          <p class="label-en" lang="en">Hello [TASKOWNERNAME]</p>
-          <p class="label-th" lang="th">สวัสดีครับ [TASKOWNERNAME]</p>
+          <p class="label-en" lang="en">Dear All,</p>
+          <p class="label-th" lang="th">เรียน ทุกท่าน</p>
         </mj-text>
         <mj-text font-size="16px" color="#344054" padding="8px 32px 16px 32px" mj-class="text">
           <p class="label-en">There is an activity <span class="subject">[NODENAME]</span> - [NODE DESCRIPTION] is completed.</p>
@@ -168,34 +168,12 @@
       <mj-section padding="0" css-class="bg-subject">
         <mj-column width="31%">
           <mj-text css-class="subject pad" mj-class="text">
-            <p class="label-en">Start Date :</p>
-            <p class="label-th">วันที่เริ่ม :</p>
+            <p class="label-en">Completed Date :</p>
+            <p class="label-th">วันที่เสร็จสมบูรณ์ :</p>
           </mj-text>
         </mj-column>
         <mj-column width="69%" css-class="bg-col">
-          <mj-text css-class="pad" mj-class="text">[STARTDATE]</mj-text>
-        </mj-column>
-      </mj-section>
-      <mj-section padding="0" css-class="bg-subject">
-        <mj-column width="31%">
-          <mj-text css-class="subject pad" mj-class="text">
-            <p class="label-en">Due Date :</p>
-            <p class="label-th">วันครบกำหนด :</p>
-          </mj-text>
-        </mj-column>
-        <mj-column width="69%" css-class="bg-col">
-          <mj-text css-class="pad" mj-class="text"><span>[DUEDATE]</span></mj-text>
-        </mj-column>
-      </mj-section>
-      <mj-section padding="0" css-class="bg-subject">
-        <mj-column width="31%">
-          <mj-text css-class="subject pad" mj-class="text">
-            <p class="label-en">Comment :</p>
-            <p class="label-th">คอมเมนต์ :</p>
-          </mj-text>
-        </mj-column>
-        <mj-column width="69%" css-class="bg-col">
-          <mj-text css-class="col pad" mj-class="text">[COMMENT] ([USERCOMMENT] ([USERCOMMENTTEL]) - [USERCOMMENTROLE])</mj-text>
+          <mj-text css-class="pad" mj-class="text"><span>[COMPLETEDDATE]</span></mj-text>
         </mj-column>
       </mj-section>
       <mj-raw>
@@ -210,9 +188,9 @@
       <mj-column>
         <mj-text css-class="label-en" font-size="16px" color="#344054" align="center" padding="24px 32px 8px 32px" mj-class="text">To access this activity, please click here</mj-text>
         <mj-text css-class="label-th" font-size="16px" color="#344054" align="center" padding="24px 32px 8px 32px" mj-class="text">หากต้องการเข้าสู่กิจกรรมนี้ กรุณาคลิกที่นี่</mj-text>
-        <mj-button background-color="#074E9F" color="white" height="48px" width="117px" border-radius="8px" font-size="18px" line-height="28px" padding="0 32px" inner-padding="10px 16px" href="[TASK]">
-          <span class="label-en">Go to task</span>
-          <span class="label-th">ไปที่งาน</span>
+        <mj-button background-color="#074E9F" color="white" height="48px" border-radius="8px" font-size="18px" line-height="28px" padding="0 32px" inner-padding="10px 16px" href="[LINK]">
+          <span class="label-en">View product details</span>
+          <span class="label-th">ดูรายละเอียดสินค้า</span>
         </mj-button>
       </mj-column>
     </mj-section>

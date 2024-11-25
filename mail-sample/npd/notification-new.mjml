@@ -91,8 +91,8 @@
       </mj-raw>
       <mj-column>
         <mj-text font-size="16px" color="#344054" padding="8px 32px 16px 32px" mj-class="text">
-          <p class="label-en" lang="en">Hello [TASKOWNERNAME]</p>
-          <p class="label-th" lang="th">สวัสดีครับ [TASKOWNERNAME]</p>
+          <p class="label-en" lang="en">Hello [TASKOWNERNAME],</p>
+          <p class="label-th" lang="th">สวัสดี [TASKOWNERNAME]</p>
         </mj-text>
         <mj-text font-size="16px" color="#344054" padding="8px 32px 16px 32px" mj-class="text">
           <p class="label-en">There is an activity <span class="subject">[NODENAME]</span> - [NODE DESCRIPTION] requires your action.</p>

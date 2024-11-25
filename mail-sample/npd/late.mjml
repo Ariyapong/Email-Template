@@ -95,8 +95,8 @@
       </mj-raw>
       <mj-column>
         <mj-text font-size="16px" color="#344054" padding="8px 32px 16px 32px" mj-class="text">
-          <p class="label-en" lang="en">Hello [TASKOWNERNAME]</p>
-          <p class="label-th" lang="th">สวัสดีครับ [TASKOWNERNAME]</p>
+          <p class="label-en" lang="en">Hello [TASKOWNERNAME],</p>
+          <p class="label-th" lang="th">สวัสดี [TASKOWNERNAME]</p>
         </mj-text>
         <mj-text font-size="16px" color="#344054" padding="8px 32px 16px 32px" mj-class="text">
           <p class="label-en">There is an activity <span class="subject">[NODENAME]</span> - [NODE DESCRIPTION] is late.</p>
@@ -184,7 +184,7 @@
           </mj-text>
         </mj-column>
         <mj-column width="69%" css-class="bg-col">
-          <mj-text css-class="subject highlight pad" mj-class="text"><span class="subject highlight">[DUEDATE]</span></mj-text>
+          <mj-text css-class="subject highlight pad" mj-class="text" color="#D92D20"><span class="subject highlight">[DUEDATE]</span></mj-text>
         </mj-column>
       </mj-section>
       <mj-section padding="0" css-class="bg-subject">
