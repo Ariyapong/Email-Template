@@ -1,7 +1,7 @@
 <mjml lang="en">
   <mj-head>
     <mj-title>PLM NPD EMAIL</mj-title>
-    <mj-preview>Activity [ACTIVITY] requires your action.</mj-preview>
+    <mj-preview>Activity [NODENAME] requires your action.</mj-preview>
     <mj-font
       name="IBM Plex Sans Thai"
       href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;600&family=IBM+Plex+Sans:wght@400;600"
@@ -65,8 +65,8 @@
           padding="8px 32px 16px 32px"
           mj-class="text"
         >
-          <p class="label-en" lang="en">Hello [RD APPROVE],</p>
-          <p class="label-th" lang="th">สวัสดี [RD APPROVE]</p>
+          <p class="label-en" lang="en">Hello [TASKOWNERNAME],</p>
+          <p class="label-th" lang="th">สวัสดี [TASKOWNERNAME]</p>
         </mj-text>
         <mj-text
           font-size="16px"
@@ -76,13 +76,13 @@
         >
           <p class="label-en">
             Sample Request :
-            <span class="subject">[SAMPLE PRODUCT NUMBER]</span> requires your
-            action for <span class="subject">[ACTIVITY]</span>
+            <span class="subject">[SAMPLEPRODUCTNUMBER]</span> requires your
+            action for <span class="subject">[NODENAME]</span>
           </p>
           <p class="label-th">
             Sample Request
-            <span class="subject">[SAMPLE PRODUCT NUMBER]</span>
-            ต้องการให้ดำเนินการ <span class="subject">[ACTIVITY]</span>
+            <span class="subject">[SAMPLEPRODUCTNUMBER]</span>
+            ต้องการให้ดำเนินการ <span class="subject">[NODENAME]</span>
           </p>
         </mj-text>
         <mj-text
@@ -116,7 +116,7 @@
         </mj-column>
         <mj-column width="69%" css-class="bg-col">
           <mj-text css-class="pad" mj-class="text"
-            >[SAMPLE REQUEST NUMBER]</mj-text
+            >[SAMPLEREQUESTNUMBER]</mj-text
           >
         </mj-column>
       </mj-section>
@@ -129,7 +129,7 @@
                 <p class="label-th subject text">เลข Sample Request :</p>
               </td>
               <td class="bg-col pad" style="width: 69%; vertical-align: top">
-                <p class="text">[SAMPLE REQUEST NUMBER]</p>
+                <p class="text">[SAMPLEREQUESTNUMBER]</p>
               </td>
             </tr>
           </mj-table>
@@ -148,7 +148,7 @@
         </mj-column>
         <mj-column width="69%" css-class="bg-col test-dp">
           <mj-text css-class="pad" mj-class="text"
-            >[REQUESTER NAME] [TEAM NO]</mj-text
+            >[REQUESTERNAME] [TEAMNO]</mj-text
           >
         </mj-column>
       </mj-section>
@@ -161,7 +161,7 @@
                 <p class="label-th subject text">ผู้ร้องขอ :</p>
               </td>
               <td class="bg-col pad" style="width: 69%; vertical-align: top">
-                <p class="text">[REQUESTER NAME] [TEAM NO]</p>
+                <p class="text">[REQUESTERNAME] [TEAMNO]</p>
               </td>
             </tr>
           </mj-table>
@@ -179,7 +179,7 @@
           </mj-text>
         </mj-column>
         <mj-column width="69%" css-class="bg-col test-dp">
-          <mj-text css-class="pad" mj-class="text">[ASSIST REQUESTER]</mj-text>
+          <mj-text css-class="pad" mj-class="text">[ASSISTREQUESTER]</mj-text>
         </mj-column>
       </mj-section>
       <mj-section padding="0" css-class="bg-subject hide-mb">
@@ -191,7 +191,7 @@
                 <p class="label-th subject text">ผู้ช่วยผู้ร้องขอ :</p>
               </td>
               <td class="bg-col pad" style="width: 69%; vertical-align: top">
-                <p class="text">[ASSIST REQUESTER]</p>
+                <p class="text">[ASSISTREQUESTER]</p>
               </td>
             </tr>
           </mj-table>
@@ -209,7 +209,7 @@
           </mj-text>
         </mj-column>
         <mj-column width="69%" css-class="bg-col test-dp">
-          <mj-text css-class="pad" mj-class="text">[ETD REQUIRE DATE]</mj-text>
+          <mj-text css-class="pad" mj-class="text">[ETDREQUIREDATE]</mj-text>
         </mj-column>
       </mj-section>
       <mj-section padding="0" css-class="bg-subject hide-mb">
@@ -221,7 +221,7 @@
                 <p class="label-th subject text">วันขนส่งสินค้า (ETD) :</p>
               </td>
               <td class="bg-col pad" style="width: 69%; vertical-align: top">
-                <p class="text">[ETD REQUIRE DATE]</p>
+                <p class="text">[ETDREQUIREDATE]</p>
               </td>
             </tr>
           </mj-table>
@@ -240,7 +240,7 @@
         </mj-column>
         <mj-column width="69%" css-class="bg-col test-dp">
           <mj-text css-class="pad" mj-class="text"
-            >[CONSIGNEE NAME CUSTOMER]</mj-text
+            >[CONSIGNEENAMECUSTOMER]</mj-text
           >
         </mj-column>
       </mj-section>
@@ -253,7 +253,7 @@
                 <p class="label-th subject text">ชื่อผู้รับ/ลูกค้า :</p>
               </td>
               <td class="bg-col pad" style="width: 69%; vertical-align: top">
-                <p class="text">[CONSIGNEE NAME CUSTOMER]</p>
+                <p class="text">[CONSIGNEENAMECUSTOMER]</p>
               </td>
             </tr>
           </mj-table>
@@ -300,7 +300,7 @@
           </mj-text>
         </mj-column>
         <mj-column width="69%" css-class="bg-col test-dp">
-          <mj-text css-class="pad" mj-class="text">[ACTIVITY]</mj-text>
+          <mj-text css-class="pad" mj-class="text">[NODENAME]</mj-text>
         </mj-column>
       </mj-section>
       <mj-section padding="0" css-class="bg-subject hide-mb">
@@ -312,7 +312,7 @@
                 <p class="label-th subject text">กิจกรรม :</p>
               </td>
               <td class="bg-col pad" style="width: 69%; vertical-align: top">
-                <p class="text">[ACTIVITY]</p>
+                <p class="text">[NODENAME]</p>
               </td>
             </tr>
           </mj-table>
@@ -329,7 +329,7 @@
           </mj-text>
         </mj-column>
         <mj-column width="69%" css-class="bg-col test-dp">
-          <mj-text css-class="pad" mj-class="text">[START DATE]</mj-text>
+          <mj-text css-class="pad" mj-class="text">[STARTDATE]</mj-text>
         </mj-column>
       </mj-section>
       <mj-section padding="0" css-class="bg-subject hide-mb">
@@ -341,7 +341,7 @@
                 <p class="label-th subject text">วันเริ่มต้น :</p>
               </td>
               <td class="bg-col pad" style="width: 69%; vertical-align: top">
-                <p class="text">[START DATE]</p>
+                <p class="text">[STARTDATE]</p>
               </td>
             </tr>
           </mj-table>
@@ -358,7 +358,7 @@
           </mj-text>
         </mj-column>
         <mj-column width="69%" css-class="bg-col test-dp">
-          <mj-text css-class="pad" mj-class="text">[DUE DATE]</mj-text>
+          <mj-text css-class="pad" mj-class="text">[DUEDATE]</mj-text>
         </mj-column>
       </mj-section>
       <mj-section padding="0" css-class="bg-subject hide-mb">
@@ -370,7 +370,7 @@
                 <p class="label-th subject text">วันครบกำหนด :</p>
               </td>
               <td class="bg-col pad" style="width: 69%; vertical-align: top">
-                <p class="text">[DUE DATE]</p>
+                <p class="text">[DUEDATE]</p>
               </td>
             </tr>
           </mj-table>
@@ -417,7 +417,7 @@
         </mj-column>
         <mj-column width="69%" css-class="bg-col test-dp">
           <mj-text css-class="pad" mj-class="text"
-            >[FACTORY NAME AND SAMPLE PRODUCT]</mj-text
+            >[FACTORYNAMEANDSAMPLE PRODUCT]</mj-text
           >
         </mj-column>
       </mj-section>
@@ -434,7 +434,7 @@
                 </p>
               </td>
               <td class="bg-col pad" style="width: 69%; vertical-align: top">
-                <p class="text">[FACTORY NAME AND SAMPLE PRODUCT]</p>
+                <p class="text">[FACTORYNAMEANDSAMPLEPRODUCT]</p>
               </td>
             </tr>
           </mj-table>
