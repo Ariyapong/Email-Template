@@ -80,7 +80,8 @@
         >
           <p class="label-en">
             Sample Request :
-            <span class="subject">[SAMPLEPRODUCTNUMBER]</span> is Cancel
+            <span class="subject">[SAMPLEPRODUCTNUMBER]</span> requires your
+            action for <span class="subject">[NODENAME]</span>
           </p>
           <p class="label-th">
             Sample Request
