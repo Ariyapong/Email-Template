@@ -50,7 +50,7 @@
       <mj-column padding-top="32px">
         <mj-image
           width="300px"
-          src="https://plm-uat.axonstech.com/images/mail-notification.png"
+          src="https://plm-uat.axonstech.com/images/mail-close.png"
         />
       </mj-column>
     </mj-section>
@@ -322,64 +322,6 @@
         </mj-column>
       </mj-section>
       <mj-raw>
-        <!-- table 8st row -->
-      </mj-raw>
-      <mj-section padding="0" css-class="bg-subject hide-dt">
-        <mj-column width="31%" css-class="">
-          <mj-text css-class="subject pad" mj-class="text">
-            <p class="label-en">Start Date :</p>
-            <p class="label-th">วันเริ่มต้น :</p>
-          </mj-text>
-        </mj-column>
-        <mj-column width="69%" css-class="bg-col test-dp">
-          <mj-text css-class="pad" mj-class="text">[STARTDATE]</mj-text>
-        </mj-column>
-      </mj-section>
-      <mj-section padding="0" css-class="bg-subject hide-mb">
-        <mj-column css-class="no-pad-tb-column ">
-          <mj-table css-class="tb-dt">
-            <tr>
-              <td class="pad" style="width: 31%; vertical-align: top">
-                <p class="label-en subject text">Start Date :</p>
-                <p class="label-th subject text">วันเริ่มต้น :</p>
-              </td>
-              <td class="bg-col pad" style="width: 69%; vertical-align: top">
-                <p class="text">[STARTDATE]</p>
-              </td>
-            </tr>
-          </mj-table>
-        </mj-column>
-      </mj-section>
-      <mj-raw>
-        <!-- table 9st row -->
-      </mj-raw>
-      <mj-section padding="0" css-class="bg-subject hide-dt">
-        <mj-column width="31%" css-class="">
-          <mj-text css-class="subject pad" mj-class="text">
-            <p class="label-en">Due date :</p>
-            <p class="label-th">วันครบกำหนด :</p>
-          </mj-text>
-        </mj-column>
-        <mj-column width="69%" css-class="bg-col test-dp">
-          <mj-text css-class="pad" mj-class="text">[DUEDATE]</mj-text>
-        </mj-column>
-      </mj-section>
-      <mj-section padding="0" css-class="bg-subject hide-mb">
-        <mj-column css-class="no-pad-tb-column ">
-          <mj-table css-class="tb-dt">
-            <tr>
-              <td class="pad" style="width: 31%; vertical-align: top">
-                <p class="label-en subject text">Due date :</p>
-                <p class="label-th subject text">วันครบกำหนด :</p>
-              </td>
-              <td class="bg-col pad" style="width: 69%; vertical-align: top">
-                <p class="text">[DUEDATE]</p>
-              </td>
-            </tr>
-          </mj-table>
-        </mj-column>
-      </mj-section>
-      <mj-raw>
         <!-- table 10st row -->
       </mj-raw>
       <mj-section padding="0" css-class="bg-subject hide-dt">
@@ -475,7 +417,7 @@
           background-color="#074E9F"
           color="white"
           height="48px"
-          width="117px"
+          width="220px"
           border-radius="8px"
           font-size="18px"
           line-height="28px"
@@ -483,8 +425,8 @@
           inner-padding="10px 16px"
           href="[TASK]"
         >
-          <span class="label-en">Go to task</span>
-          <span class="label-th">ไปที่งาน</span>
+          <span class="label-en">Go to sample request</span>
+          <span class="label-th">ไปที่ Sample request</span>
         </mj-button>
       </mj-column>
     </mj-section>
